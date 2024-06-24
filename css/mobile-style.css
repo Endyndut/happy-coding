@@ -1,0 +1,103 @@
+@media only screen and (width <= 768px) {
+  header {
+    height: initial;
+  }
+
+  header .container .row .col-md-5 {
+    margin-top: 8rem;
+  }
+
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  header .navbar-toggler {
+    margin-right: 2rem;
+  }
+
+  header .container {
+    padding-top: 0;
+  }
+
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+
+  .section-2 .cover {
+    background-position: 0vmin 50vmin;
+  }
+
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+
+  .section-3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+
+  .section-3 .row .col-md-6 {
+    text-align: center !important;
+  }
+
+  .section-3 .desktop i {
+    font-size: 8vmin;
+  }
+
+  .section-4 .team {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .section-4 .team .col-md-4 {
+    /* display: flex; */
+    width: 24rem;
+    /* background-color: aqua; */
+    padding: 0;
+  }
+
+  .carousel {
+    height: initial;
+  }
+
+  footer .col-md-2 {
+    width: 5.5rem;
+  }
+
+  footer .column {
+    width: 8rem;
+  }
+
+  footer .column i + i {
+    padding: 0;
+  }
+}
+
+@media only screen and (width <= 425px) {
+  header .container .row .col-md-5 {
+    padding-top: 0;
+    padding-bottom: 10rem;
+    margin-top: 0;
+  }
+
+  .section-1 .row .col-md-6 .aestetic {
+    display: flex;
+    justify-content: center;
+  }
+  .section-1 .row .col-md-6 .aestetic img {
+    margin-left: 0;
+  }
+}
